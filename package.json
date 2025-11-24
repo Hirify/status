@@ -14,7 +14,8 @@
     "dev:dashboard": "turbo run dev --filter='./apps/dashboard' --filter='./packages/db'",
     "dx": "turbo run dx",
     "tsc": "tsc",
-    "test": "turbo run test"
+    "test": "turbo run test",
+    "scalingo-postbuild": "turbo run build --filter='@openstatus/web' --filter='./packages/*'"
   },
   "devDependencies": {
     "@biomejs/biome": "1.8.3",
