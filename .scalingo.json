@@ -2,13 +2,14 @@
   "name": "openstatus",
   "description": "OpenStatus - Monitoring platform",
   "repository": "https://github.com/openstatusHQ/openstatus",
-  "scripts": {
-    "postdeploy": "pnpm --filter=@openstatus/web run build"
-  },
   "env": {
     "NODE_ENV": {
       "description": "Node.js environment",
       "value": "production"
+    },
+    "NEXT_PUBLIC_OPENPANEL_CLIENT_ID": {
+      "description": "OpenPanel client ID (optional)",
+      "value": ""
     }
   },
   "addons": [],
