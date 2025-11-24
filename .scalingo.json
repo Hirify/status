@@ -8,7 +8,135 @@
       "value": "production"
     },
     "NEXT_PUBLIC_OPENPANEL_CLIENT_ID": {
-      "description": "OpenPanel client ID (optional)",
+      "description": "OpenPanel client ID",
+      "value": "placeholder"
+    },
+    "OPENPANEL_CLIENT_SECRET": {
+      "description": "OpenPanel client secret",
+      "value": "placeholder"
+    },
+    "TINY_BIRD_API_KEY": {
+      "description": "Tinybird API key",
+      "value": ""
+    },
+    "RESEND_API_KEY": {
+      "description": "Resend API key for email",
+      "value": ""
+    },
+    "QSTASH_CURRENT_SIGNING_KEY": {
+      "description": "QStash current signing key",
+      "value": ""
+    },
+    "QSTASH_NEXT_SIGNING_KEY": {
+      "description": "QStash next signing key",
+      "value": ""
+    },
+    "QSTASH_TOKEN": {
+      "description": "QStash token",
+      "value": ""
+    },
+    "STRIPE_WEBHOOK_SECRET_KEY": {
+      "description": "Stripe webhook secret",
+      "value": ""
+    },
+    "NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY": {
+      "description": "Stripe publishable key",
+      "value": ""
+    },
+    "NEXT_PUBLIC_URL": {
+      "description": "Application URL",
+      "value": ""
+    },
+    "NEXT_PUBLIC_SENTRY_DSN": {
+      "description": "Sentry DSN for error tracking",
+      "value": ""
+    },
+    "UNKEY_TOKEN": {
+      "description": "Unkey API token",
+      "value": ""
+    },
+    "UNKEY_API_ID": {
+      "description": "Unkey API ID",
+      "value": ""
+    },
+    "GCP_PROJECT_ID": {
+      "description": "Google Cloud Project ID",
+      "value": ""
+    },
+    "GCP_LOCATION": {
+      "description": "Google Cloud location",
+      "value": ""
+    },
+    "GCP_CLIENT_EMAIL": {
+      "description": "Google Cloud client email",
+      "value": ""
+    },
+    "GCP_PRIVATE_KEY": {
+      "description": "Google Cloud private key",
+      "value": ""
+    },
+    "CRON_SECRET": {
+      "description": "Cron job secret",
+      "value": ""
+    },
+    "EXTERNAL_API_URL": {
+      "description": "External API URL",
+      "value": "http://localhost"
+    },
+    "CLICKHOUSE_URL": {
+      "description": "ClickHouse database URL",
+      "value": ""
+    },
+    "CLICKHOUSE_USERNAME": {
+      "description": "ClickHouse username",
+      "value": ""
+    },
+    "CLICKHOUSE_PASSWORD": {
+      "description": "ClickHouse password",
+      "value": ""
+    },
+    "AUTH_SECRET": {
+      "description": "Auth secret for next-auth",
+      "value": "change-me-in-production"
+    },
+    "AUTH_DRIZZLE_URL": {
+      "description": "Database URL for authentication",
+      "value": ""
+    },
+    "AUTH_GITHUB_ID": {
+      "description": "GitHub OAuth ID",
+      "value": ""
+    },
+    "AUTH_GITHUB_SECRET": {
+      "description": "GitHub OAuth secret",
+      "value": ""
+    },
+    "AUTH_GOOGLE_ID": {
+      "description": "Google OAuth ID",
+      "value": ""
+    },
+    "AUTH_GOOGLE_SECRET": {
+      "description": "Google OAuth secret",
+      "value": ""
+    },
+    "PAGERDUTY_APP_ID": {
+      "description": "PagerDuty app ID",
+      "value": ""
+    },
+    "SLACK_SUPPORT_WEBHOOK_URL": {
+      "description": "Slack support webhook URL",
+      "value": ""
+    },
+    "TURBO_ENV_MODE": {
+      "description": "Turbo environment mode",
+      "value": "loose"
+    },
+    "DATABASE_URL": {
+      "description": "Database URL",
+      "value": ""
+    },
+    "DATABASE_AUTH_TOKEN": {
+      "description": "Database auth token",
       "value": ""
     }
   },
